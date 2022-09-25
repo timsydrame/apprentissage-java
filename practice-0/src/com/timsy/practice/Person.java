@@ -1,13 +1,16 @@
 package com.timsy.practice;
 
 public class Person {
+	private String firstName;
+
 	private String name;
 	
-	public Person(String name) {
+	public Person(String firstName, String name) {
+		this.firstName = firstName;
 		this.name = name;
 	}
     
 	public String toString() {
-		return "Person[" + name + "]";
+		return "Person[" + firstName + " " + name + "]";
 	}
 }
