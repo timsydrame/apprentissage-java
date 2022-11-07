@@ -1,6 +1,6 @@
 package com.timsy.practice;
 /**
- * . Write a Java program to display the following pattern. Go to the editor
+ * . Write a Java program to display the following pattern. 
  *Sample Pattern :</br>
  *   J    a   v     v  a  </br>                                                
  *  J   a a   v   v  a a </br>                                                
@@ -18,7 +18,5 @@ public class Exo8AffichageDePattern {
 		System.out.println(" j   a a   v   v  a a");
 		System.out.println("j   j   aaaaa   v v  aaaaa");
 		System.out.println("jj   a       a  v  a     a");
-
 	}
-
 }

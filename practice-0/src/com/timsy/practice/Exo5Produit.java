@@ -7,7 +7,7 @@ import java.util.Scanner;
 * Input first number: 25
 * Input second number: 5 <br/>
 * <u><b>Expected Output :<br/></u></b/>
-* 25 x 5 = 125
+* 25 x 5 = 125<br/>
 * <a href="https://www.w3resource.com/java-exercises/basic/index.php">voir exo</a>
  * @author fatim
  */
@@ -15,13 +15,12 @@ import java.util.Scanner;
 public class Exo5Produit {
 	
 	public static void main(String[] args) {
-		Scanner scan =new Scanner(System.in);
+		Scanner scanner =new Scanner(System.in);
 		System.out.println("Entrer le premier numero");
-		int num1 = scan.nextInt();
+		int num1 = scanner.nextInt();
 		System.out.println("Entrer le deuxieme numero");
-        int num2 = scan.nextInt();
-		System.out.println(num1*num2);
-		 
+        int num2 = scanner.nextInt();
+		System.out.println(num1*num2);		 
 	}
 
 }

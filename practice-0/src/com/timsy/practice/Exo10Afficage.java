@@ -1,4 +1,5 @@
 package com.timsy.practice;
+
 /**
  * 10. Write a Java program to compute a specified formula. </br>
  * <u><b> Specified Formula : <br/> </u></b>
@@ -13,7 +14,5 @@ public class Exo10Afficage {
 
 	public static void main(String[] args) {
 		System.out.println(4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)) );
-
 	}
-
 }

@@ -20,17 +20,19 @@ public class Exo6CalculMath {
 
 public static void main(String[] args) {
 		
-		 Scanner in = new Scanner(System.in);
+		 Scanner scanner = new Scanner(System.in);
 		 System.out.println("Donner le premier nombre entier");
-		 int numb1 = in.nextInt();
+		 int numb1 = scanner.nextInt();
 		 System.out.println("Donner le dexième nombre entier");
-		 int numb2 = in.nextInt();
+		 int numb2 = scanner.nextInt();
 		 System.out.println(numb1  + "+" + numb2 + "=" + (numb1 + numb2));
 		 System.out.println(numb1  + "-" + numb2 + "=" + (numb1 - numb2));
 		 System.out.println(numb1  + "x" + numb2 + "=" + (numb1 * numb2));
-		 System.out.println(numb1  + "/" + numb2 + "=" + (numb1 / numb2));
+		 if (numb2 == 0) {
+			 System.err.println("Division par zero impossible");
+		 } else {
+			 System.out.println(numb1  + "/" + numb2 + "=" + (numb1 / numb2));
+		 }
 		 System.out.println(numb1  + "%" + numb2 + "=" + (numb1 % numb2));
-
 	}
-
 }

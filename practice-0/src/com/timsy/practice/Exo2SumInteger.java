@@ -25,5 +25,4 @@ public class Exo2SumInteger {
 	
 		System.out.println("la somme = " +  first + secnd);
 	}
-
 }

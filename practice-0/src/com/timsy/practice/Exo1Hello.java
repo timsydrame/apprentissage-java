@@ -20,9 +20,6 @@ public class Exo1Hello {
 		String firstName = scanner.nextLine();
 		String nomComplet = firstName + " " + name.toUpperCase();
 		
-		System.out.println("Hello\n" + nomComplet);
-		
-	}
-	
-
+		System.out.println("Hello\n" + nomComplet);		
+	}	
 }
